@@ -17,7 +17,7 @@
 }
 
 .text-secondary{
-    background-color: rgb(245, 245, 245)
+    background-color: rgb(245, 245, 245);
 }
 
 .bg-primary{
@@ -102,13 +102,13 @@ text-align: center;
 
 .banner{
 display: flex;
-gap: 64px;
 padding: 80px 100px;
 justify-content: space-between;
 align-items: center;
 border-radius: 24px;
 max-width: 1600px;
 height: 560px;
+gap: 64px;
 
 }
 
@@ -320,4 +320,147 @@ article{
     font-size: 18px;
     font-weight: 600;
 
+}
+
+/* donation-style */
+.donation-section{
+border: 1px;
+width: 1280;
+height: 464;
+gap: 32px;
+margin: 80px 0px;
+justify-items: center;
+
+}
+.mother{
+    display: flex;
+
+}
+
+:hover .tk-200{
+    background-color: #C6E4D6;
+
+}
+:hover .tk-100{
+    background-color: #C6E4D6;
+}
+
+.donation-amount{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 24px;
+    margin: 32px 0px;
+    padding: 40px;
+    width: 184px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.other-amount{
+    width: 952px;
+    height: 24px;
+    padding: 20px 40px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    margin: 32px 0px;
+    align-items: center;
+
+    
+}
+
+.other-taka{
+    width: 187px;
+    height: 24px;
+    gap: 12px;
+    font-size: 20px;
+    border: none;
+    
+}
+
+/* newsletter section style */
+
+.newsletter-section{
+    border: 1px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px;
+    width: 1080px;
+    height: 235px;
+    justify-items: center;
+    justify-self: center;
+    margin: 80px 0px;
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-subcribe{
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    border: 1px;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 56px;
+}
+
+.email-section{
+    width: 600px;
+    height: 55px;
+    padding: 18px 40px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    margin: 32px 0px;
+    align-items: center;
+    border-radius: 8px 0px 0px 8px;
+    gap: 24px;
+
+}
+
+.email-text{
+    width: 187px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400px;
+    border: none;
+}
+
+.promise{
+    font-size: 16px;
+    font-weight: 400;
+    gap: 24px;
+    margin: 24px 0px;
+}
+
+/* footer section style */
+.footer-section{
+    border: 1px;
+    width: 1600px;
+    height: 226px;
+    align-items: center;
+    gap: 32px;
+    padding: 50px 160px;
+    background-color:  rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.line{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    width: 1122px;
+    height: 0px;
+}
+
+.sicon{
+    gap: 23px;
+    display: flex;
 }
